@@ -2,7 +2,7 @@ let toggleBtn = document.querySelector('#toggleBtn'),
     tabs = document.querySelector('#tabs'),
     tabsLis = document.querySelectorAll('#tabs li a'),
     filterLi = document.querySelectorAll('.filter li'),
-    profileBox = document.querySelectorAll('.portfolio-container .box'),
+    profileBox = document.querySelectorAll('.project-container .box'),
     sections = document.querySelectorAll('.section'),
     home = document.querySelector('[data-sec="home"]'),
     settings = document.querySelector('#settings'),
@@ -15,34 +15,34 @@ toggleBtn.addEventListener('click', () => {
     tabs.classList.toggle('active');
 });
 
-// /*Testimonial Slider With Bullet Points */
-// let swiper = new Swiper(".mySwiper", {
-//     slidesPerView: 1,
-//     spaceBetween: 30,
-//     breakpoints: {
-//         //When window width is >= 768px
-//         768: {
-//             slidesPerView: 2,
-//         },
-//         //When window width is >= 992px
-//         992: {
-//             slidesPerView: 3,
-//         }
-//     },
-//     //autoplay the slider with a delay of 2.5s
-//     autoplay: {
-//         delay: 2500,
-//         disableInteraction: false,
-//     },
-//     //show the pagination bullet and make it clickable
-//     pagination: {
-//         el: ".swiper-pagination",
-//         clickable: true,
-//     },
-//     //loop the slider 
-//     lazyLoading: true,
-//     loop: true,
-// });
+/*Testimonial Slider With Bullet Points */
+let swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    breakpoints: {
+        //When window width is >= 768px
+        768: {
+            slidesPerView: 2,
+        },
+        //When window width is >= 992px
+        992: {
+            slidesPerView: 3,
+        }
+    },
+    //autoplay the slider with a delay of 2.5s
+    autoplay: {
+        delay: 2500,
+        disableInteraction: false,
+    },
+    //show the pagination bullet and make it clickable
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    //loop the slider 
+    lazyLoading: true,
+    loop: true,
+});
 
 filterLi.forEach((li) => {
     li.addEventListener('click', (e) => {
@@ -53,7 +53,7 @@ filterLi.forEach((li) => {
         profileBox.forEach((box) => {
             box.classList.remove('active');
         });
-        if (e.currentTarget.dataset.profile === 'all') {
+        if (e.currentTarget.dataset.profile === 'All') {
             profileBox.forEach((box) => {
                 box.classList.add('active');
             });
