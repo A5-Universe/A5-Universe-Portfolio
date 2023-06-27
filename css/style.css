@@ -30,7 +30,7 @@ body {
   font-family: "Roboto", sans-serif;
   background: url(../img/bg.jpg) var(--lightWhite);
   background-size: cover;
-  background-position: center;
+  background-position: center; 
 }
 
 h1 {
