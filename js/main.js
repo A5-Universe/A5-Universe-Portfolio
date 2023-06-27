@@ -108,3 +108,22 @@ window.addEventListener('load', () => {
         clearInterval(fadeOutEffect);
     }, 1000);
 });
+
+//download resume
+function downloadResume() {
+    var fileUrl = 'https://drive.google.com/file/d/1ub6LOJl7UFyol1qXjwyGXvPRmsNbq2Zg/view?usp=drive_link'; // Replace DRIVE_FILE_ID with the actual file ID from Google Drive
+    var a = document.createElement('a');
+    a.href = fileUrl;
+    a.download = 'resume.pdf'; // Set the desired file name here
+
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
+  
+
+  //hd5 wallpaper link
+  function downloadHd5() {
+    window.open("https://play.google.com/store/apps/details?id=com.a5universe.hd5wallpaper&hl=en-IN", "_blank");
+  }
+  
