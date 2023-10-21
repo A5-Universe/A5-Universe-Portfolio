@@ -396,45 +396,6 @@ main {
 
 /* End Services section  */
 
-/*Start Skills section*/
-.skills {
-  background-color: var(--whiteColor);
-  padding-top: 6rem;
-  padding-bottom: 5rem;
-  border-radius: 0 0 0.6rem 0.6rem;
-}
-
-.skills .section-title {
-  margin-bottom: 4.5rem;
-}
-
-.skills .design-skills {
-  padding-bottom: 5rem;
-}
-
-.skills .skills-container .skill h3 {
-  font-size: 1.2rem;
-  font-weight: 500;
-  text-transform: capitalize;
-}
-
-.skills .skills-container .skill .progress {
-  width: 100%;
-  height: 0.5rem;
-  background-color: var(--lightGray);
-  border-radius: 2rem;
-  margin: 1rem 0 2rem;
-}
-
-.skills .skills-container .skill .progress span {
-  display: block;
-  height: 100%;
-  background-color: var(--primaryColor);
-  border-radius: 2rem 0 0 2rem;
-}
-
-/*End Skills section*/
-
 /*Start community section*/
 .community {
   background-color: var(--whiteColor);
@@ -1101,23 +1062,6 @@ footer .footer-container .copyright p a {
   .right {
     margin-top: 0;
     width: 66.6666%;
-  }
-
-  .skills {
-    display: flex;
-  }
-
-  .skills .design-skills,
-  .skills .code-skills {
-    flex-basis: 50%;
-  }
-
-  .skills .design-skills {
-    padding: 0 3rem 0 0;
-  }
-
-  .skills .code-skills {
-    padding: 0 0 0 3rem;
   }
 
   .resume .resume-container {
