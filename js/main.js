@@ -121,7 +121,6 @@ function downloadResume() {
     document.body.removeChild(a);
   }
   
-
   //hd5 wallpaper link
   function downloadHd5() {
     window.open("https://play.google.com/store/apps/details?id=com.a5universe.hd5wallpaper&hl=en-IN", "_blank");
