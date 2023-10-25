@@ -1026,15 +1026,6 @@ footer .footer-container .copyright p a {
     border-bottom: 0;
   }
 
-  .right header nav .hire-me {
-    display: flex;
-    margin-right: 2rem;
-  }
-
-  .right header nav .hire-me .btn {
-    width: 12rem;
-  }
-
   .members .members-container {
     flex-direction: row;
     flex-wrap: wrap;
