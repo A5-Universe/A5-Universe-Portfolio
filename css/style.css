@@ -605,6 +605,18 @@ main {
   color: var(--grayColor);
 }
 
+/* Highlighted Changes for Button Styling */
+.project .project-container .box .btn {
+  margin-top: auto;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--primaryColor);
+  color: var(--whiteColor);
+  border: none;
+  border-radius: 0 0 0.6rem 0.6rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 /*End Project section*/
 
 /*Start courses section*/
