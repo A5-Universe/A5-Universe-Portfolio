@@ -161,3 +161,32 @@ function downloadLoop() {
   downloadLink.click();
   document.body.removeChild(downloadLink);
 }
+
+//Courses link
+function javaCourse() {
+  window.open('https://www.javatpoint.com/java-tutorial', '_blank');
+}
+function kotlinCourse() {
+  window.open('https://www.javatpoint.com/kotlin-tutorial', '_blank');
+}
+function androidCourse() {
+  window.open('https://www.javatpoint.com/android-tutorial', '_blank');
+}
+function htmlCourse() {
+  window.open('https://www.javatpoint.com/html-tutorial', '_blank');
+}
+function cssCourse() {
+  window.open('https://www.javatpoint.com/css-tutorial', '_blank');
+}
+function javaScriptCourse() {
+  window.open('https://www.javatpoint.com/javascript-tutorial', '_blank');
+}
+function nodejsCourse() {
+  window.open('https://www.javatpoint.com/nodejs-tutorial', '_blank');
+}
+function mongodbCourse() {
+  window.open('https://www.javatpoint.com/mongodb-tutorial', '_blank');
+}
+function reactjsCourse() {
+  window.open('https://www.javatpoint.com/reactjs-tutorial', '_blank');
+}

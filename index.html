@@ -325,13 +325,13 @@
               </div>
               <ul class="filter">
                 <li class="active" data-profile="All">All</li>
-                <li data-profile="Android">Android</li>
-                <li data-profile="Website">Website</li>
-                <li data-profile="CrossPlatform">CrossPlatform</li>
+                <li data-profile="AndroidApp">AndroidApp</li>
+                <li data-profile="WebApp">WebApp</li>
+                <li data-profile="OtherApp">OtherApp</li>
                 <li data-profile="AI">AI</li>
               </ul>
               <div class="project-container">
-                <div class="active box Android">
+                <div class="active box AndroidApp">
                   <div class="image">
                     <img src="img/project/hd5_wallpaper.png" />
                   </div>
@@ -344,7 +344,7 @@
                   </button>
                 </div>
 
-                <div class="active box Android">
+                <div class="active box AndroidApp">
                   <div class="image">
                     <img src="img/project/loop.png" />
                   </div>
@@ -356,7 +356,7 @@
                     Downolad Now
                   </button>
                 </div>
-                <div class="active box Website">
+                <div class="active box WebApp">
                   <div class="image">
                     <img src="img/project/coming.jpg" />
                   </div>
@@ -365,7 +365,7 @@
                     <p>coming soon.</p>
                   </div>
                 </div>
-                <div class="active box Website">
+                <div class="active box WebApp">
                   <div class="image">
                     <img src="img/project/coming.jpg" />
                   </div>
@@ -374,7 +374,7 @@
                     <p>coming soon.</p>
                   </div>
                 </div>
-                <div class="active box CrossPlatform">
+                <div class="active box OtherApp">
                   <div class="image">
                     <img src="img/project/coming.jpg" />
                   </div>
@@ -383,7 +383,7 @@
                     <p>coming soon.</p>
                   </div>
                 </div>
-                <div class="active box CrossPlatform">
+                <div class="active box OtherApp">
                   <div class="image">
                     <img src="img/project/coming.jpg" />
                   </div>
@@ -429,9 +429,9 @@
             <section class="courses">
               <div class="section-title">
                 <h2>courses</h2>
-              </div>
+              </div> 
               <div class="courses-container">
-                <div class="courses-item">
+                <div class="courses-item" onclick="javaCourse()">
                   <div class="courses-img">
                     <img src="img/course/java.png" alt="" />
                   </div>
@@ -441,9 +441,9 @@
                     <span class="date"></span>
                   </div>
                 </div>
-                <div class="courses-item">
+                <div class="courses-item"onclick="kotlinCourse()">
                   <div class="courses-img">
-                    <img src="img/course/kotlin.jpg" alt="" />
+                    <img src="img/course/kotlin.jpg"/>
                   </div>
                   <div class="courses-details">
                     <h3>Kotlin</h3>
@@ -451,17 +451,17 @@
                     <span class="date"></span>
                   </div>
                 </div>
-                <div class="courses-item">
+                <div class="courses-item"onclick="androidCourse()">
                   <div class="courses-img">
                     <img src="img/course/android.jpg" alt="" />
                   </div>
                   <div class="courses-details">
-                    <h3>Andriod</h3>
+                    <h3>Android</h3>
                     <p>Complete Android Development Course</p>
                     <span class="date"></span>
                   </div>
                 </div>
-                <div class="courses-item">
+                <div class="courses-item"onclick="htmlCourse()">
                   <div class="courses-img">
                     <img src="img/course/html.jpg" alt="" />
                   </div>
@@ -471,7 +471,7 @@
                     <span class="date"></span>
                   </div>
                 </div>
-                <div class="courses-item">
+                <div class="courses-item"onclick="cssCourse()">
                   <div class="courses-img">
                     <img src="img/course/css.jpg" alt="" />
                   </div>
@@ -481,7 +481,7 @@
                     <span class="date"></span>
                   </div>
                 </div>
-                <div class="courses-item">
+                <div class="courses-item"onclick="javaScriptCourse()">
                   <div class="courses-img">
                     <img src="img/course/javascript.jpg" alt="" />
                   </div>
@@ -491,7 +491,7 @@
                     <span class="date"></span>
                   </div>
                 </div>
-                <div class="courses-item">
+                <div class="courses-item"onclick="nodejsCourse()">
                   <div class="courses-img">
                     <img src="img/course/nodejs.jpg" alt="" />
                   </div>
@@ -501,7 +501,7 @@
                     <span class="date"></span>
                   </div>
                 </div>
-                <div class="courses-item">
+                <div class="courses-item"onclick="mongodbCourse()">
                   <div class="courses-img">
                     <img src="img/course/mongodb.png" alt="" />
                   </div>
@@ -511,7 +511,7 @@
                     <span class="date"></span>
                   </div>
                 </div>
-                <div class="courses-item">
+                <div class="courses-item"onclick="reactjsCourse()">
                   <div class="courses-img">
                     <img src="img/course/reactjs.png" alt="" />
                   </div>
