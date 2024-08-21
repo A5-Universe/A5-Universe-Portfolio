@@ -124,7 +124,7 @@ window.addEventListener("load", () => {
 //download resume
 function downloadResume() {
   var fileUrl =
-    "https://drive.google.com/file/d/1eEy3pXT7BUKFOJIZJ5jEojZkzYoAYbcE/view"; // Replace DRIVE_FILE_ID with the actual file ID from Google Drive
+    "https://drive.google.com/file/d/1YX43MCAi6DbYmaaYrXHqDPlzEyiCuGwH/view?usp=sharing"; // Replace DRIVE_FILE_ID with the actual file ID from Google Drive
   var a = document.createElement("a");
   a.href = fileUrl;
   a.download = "resume.pdf"; // Set the desired file name here
